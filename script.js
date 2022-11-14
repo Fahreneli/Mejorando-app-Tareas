@@ -24,7 +24,7 @@ import deleteIcon from "./components/deleteIcon.js";
     task.appendChild(taskContent);
     task.appendChild(deleteIcon());
     list.appendChild(task);
-}
+    }
 
 btn.addEventListener("click", createTask)
 
