@@ -29,6 +29,7 @@ form {
   border-radius: 25px;
   background-color: #fff;
   padding: 25px;
+  border: black solid 5px; 
 }
 
 .title {
