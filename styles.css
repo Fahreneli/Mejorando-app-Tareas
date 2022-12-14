@@ -30,6 +30,7 @@ form {
   background-color: #fff;
   padding: 25px;
   border: black solid 5px; 
+  min-width: 250px;
 }
 
 .title {
@@ -45,7 +46,7 @@ form {
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 65%;
+  width: 45%;
 }
 
 .inputForm::placeholder {
