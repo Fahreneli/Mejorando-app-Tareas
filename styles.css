@@ -125,3 +125,34 @@ form {
 .noTasks {
   font-size: 48px;
 }
+
+.date {
+  width: 100%;
+  padding: 15px;
+  
+}
+
+
+@media screen and (max-width: 600px){
+  form {
+    flex-direction: column;
+  }
+
+  .inputForm {
+    width: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    border: black solid 1px;
+    border-radius: 10px;
+  }
+
+  .btnCreate {
+    margin-top: 1rem;
+  }
+
+  .mainCard{
+    height: 87%;
+    border: none
+  }
+
+}
